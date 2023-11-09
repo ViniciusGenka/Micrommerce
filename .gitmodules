@@ -1,0 +1,18 @@
+[submodule "micrommerce-service-discovery"]
+	path = micrommerce-service-discovery
+	url = https://github.com/ViniciusGenka/micrommerce-service-discovery
+[submodule "micrommerce-api-gateway"]
+	path = micrommerce-api-gateway
+	url = https://github.com/ViniciusGenka/micrommerce-api-gateway
+[submodule "micrommerce-order-service"]
+	path = micrommerce-order-service
+	url = https://github.com/ViniciusGenka/micrommerce-order-service
+[submodule "micrommerce-notification-service"]
+	path = micrommerce-notification-service
+	url = https://github.com/ViniciusGenka/micrommerce-notification-service
+[submodule "micrommerce-inventory-service"]
+	path = micrommerce-inventory-service
+	url = https://github.com/ViniciusGenka/micrommerce-inventory-service
+[submodule "micrommerce-catalog-service"]
+	path = micrommerce-catalog-service
+	url = https://github.com/ViniciusGenka/micrommerce-catalog-service

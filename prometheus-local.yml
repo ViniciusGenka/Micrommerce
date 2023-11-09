@@ -1,0 +1,16 @@
+global:
+  scrape_interval: 15s
+  scrape_timeout: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'eureka-discovery'
+    metrics_path: /actuator/prometheus
+    eureka_sd_configs:
+      - server: http://service-discovery:8761/eureka
+        refresh_interval: 30s
+    relabel_configs:
+      - source_labels: [ __meta_eureka_app_name ]
+        target_label: application
+      - source_labels: [ __meta_eureka_app_instance_hostname, __meta_eureka_app_instance_port ]
+        target_label: instance
