@@ -15,12 +15,12 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>catalog-service</module>
-        <module>order-service</module>
-        <module>inventory-service</module>
-        <module>service-discovery</module>
-        <module>api-gateway</module>
-        <module>notification-service</module>
+        <module>micrommerce-catalog-service</module>
+        <module>micrommerce-order-service</module>
+        <module>micrommerce-inventory-service</module>
+        <module>micrommerce-service-discovery</module>
+        <module>micrommerce-api-gateway</module>
+        <module>micrommerce-notification-service</module>
     </modules>
 
     <properties>
