@@ -1,5 +1,5 @@
 version: '3.7'
-name: ecommerce-microservices-local
+name: micrommerce-local
 services:
   catalog-service-mongo:
     image: mongo:latest
